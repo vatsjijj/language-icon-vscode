@@ -1,0 +1,25 @@
+{
+  "name": "language-icon",
+  "displayName": "language-icon",
+  "description": "A port of Atom's 'language-icon' package to VSCode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "language-icon",
+      "aliases": ["Icon", "language-icon"],
+      "extensions": [".icn"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "language-icon",
+      "scopeName": "source.icon",
+      "path": "./syntaxes/language-icon.tmLanguage.json"
+    }]
+  }
+}
