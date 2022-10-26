@@ -1,8 +1,14 @@
 {
+  "publisher": "vatsjijj",
   "name": "language-icon",
+  "license": "MIT",
   "displayName": "language-icon",
   "description": "A port of Atom's 'language-icon' package to VSCode.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vatsjijj/language-icon-vscode"
+  },
   "engines": {
     "vscode": "^1.72.0"
   },
